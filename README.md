@@ -65,10 +65,6 @@ https://\<host\>:\<port\>/event</br>
 Note: If you are using ngrok for this sample application, the answer URL and event URL look like:</br>
 https://yyyyyyyy.ngrok.xxx/answer</br>
 https://yyyyyyyy.ngrok.xxx/event</br></br>
-- If you turn on call recording (see .env-example file content), you need to enable RTC webhooks</br>
-under RTC, **select** HTTP POST, and enter</br>
-https://\<host\>:\<port\>/rtc</br>
-(replace \<host\> and \<port\> with the public host name and if necessary public port of the server where this sample application is running)</br>
 
 - Click on [Generate public and private key] if you did not yet create or want new ones, save the private key file in this application folder as .private.key (leading dot in the file name).</br>
 
